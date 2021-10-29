@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: Arial;
+}
+
+.navbar{
+	height: 10vh;
+	width:100%;
+	background:black;
+}
+
+.paninoBox{
+	height:100%;
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	margin-top: 5%;
+}
+
+.paninoBox_su{
+	min-height:35vh;
+	width:100%;
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: flex-start;
+}
+
+.paninoBox_su h1{
+	font-size: 4vh;
+	width:60%;
+	text-align: left;
+	font-family: BlockBE;
+	font-weight: 400;
+	padding:4%;
+}
+
+.paninoBox_su h2{
+	min-height: 10vh;
+	width:95%;
+	padding:4%;
+    font-size: 2.5vh;
+    margin-top: 13%;
+    margin-bottom: 2%;
+}
+
+.paninoBox_su img{
+	height:17vh;
+    position:absolute;
+    top:-10%;
+    right:-4%;
+}
+
+.paninoBox_giu{
+    height:8vh;
+	width:100%;
+	background:rgb(184, 124, 1);
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.consigliatoDa{
+	width:70%;
+	height:100%;
+	display:flex;
+	align-items: center;
+	font-size: 2.3vh;
+}
+
+.consiglia{
+	height:4vh;
+	width:20%;
+	border-radius: 7%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.9vh;
+	color:white;
+	text-decoration: none;
+	
+}
+
+.consiglia img{
+	height: 4vh;
+}
+
+.togliConsiglia{
+	height:4vh;
+	width:20%;
+	background:rgb(166, 166, 255);
+	border-radius: 7%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.9vh;
+	color:white;
+	text-decoration: none;
+}
